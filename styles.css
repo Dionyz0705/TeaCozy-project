@@ -1,0 +1,146 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  
+} 
+
+/* header section*/
+ 
+ul li {  
+  display: inline-block;  
+  text-decoration: underline;  
+  list-style-type: none; 
+  margin-right: 20px;   
+}
+
+ul li a {
+  color: seashell;
+}
+
+ul li a:hover {
+  color:cornflowerblue;
+}
+
+nav {   
+  background-image: url('../Images/img-tea-cozy-logo.png');
+  background-repeat: no-repeat; 
+  background-size: 150px 50px;  
+  background-position: 10px;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  text-align: right;  
+  z-index: 1;
+  background-color: black;
+   
+}
+
+header {
+  background-image: url('../Images/img-mission-background.jpg');  
+  height: 700px;
+  width: 1200px;
+  margin: 69px auto 0 auto;
+  display: flex;
+  align-items: center;
+}
+ 
+.mission {
+  text-align: center;  
+  background-color: black;
+  width: 1200px;
+  height: 15%;
+  margin: 0 auto;
+  padding: 0 auto;
+  line-height: 20px;  
+}
+
+ #mission {
+  margin-top: 20px;
+ }
+
+ /* Body section */
+
+ .Featured {
+  text-align: center;
+  display: inline-block;  
+  width: 100%;
+  margin: 0 auto; 
+ }
+
+ .month {
+  text-align: center;
+  display: flex;    
+  width: 1000px;  
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;  
+  justify-content: space-between; 
+  margin: 0 auto;  
+}
+
+.monthend {
+  text-align: center;
+  display: flex;    
+  width: 700px;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;  
+  justify-content: space-around; 
+  margin: 0 auto;  
+}
+
+#FeaturedTea {
+  margin-top: 70px;
+}
+
+h4 {
+  margin-top: 10px;
+}
+ /* Locations section*/
+
+ .Locations {
+   display: flex;
+   justify-content: space-between ;
+   width: 1000px;
+   margin: 0 auto;  
+ }
+
+ #Locations {
+   text-align: center;
+   margin: 15px;
+   padding-top: 40px;     
+ }
+
+ .address {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  opacity: 1;
+  align-content: space-around;
+  line-height: 40px;  
+ }
+
+ .loc-banner {  
+  background-image: url('../Images/img-locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;   
+ }
+
+ /* footer section */
+
+ .contact {
+   text-align: center;
+   height: 200px;
+ }
+
+ .copyright {
+   text-align: left;
+   margin-left: 20px;
+ }
